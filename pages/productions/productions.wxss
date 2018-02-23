@@ -1,0 +1,24 @@
+page {  
+  display: block;  
+  width: 100%;
+  background-image: url('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/background22.png');
+  background-size: cover;
+}  
+.background{
+  width: 100%;
+  padding-top: 60rpx;
+}
+.logo{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;
+}
+.productions{
+  display: flex;
+  flex:2;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rpx 80rpx 0rpx 80rpx;
+  margin: 50rpx 0rpx 50rpx 0rpx;
+}

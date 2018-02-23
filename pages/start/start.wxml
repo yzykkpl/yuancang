@@ -1,0 +1,21 @@
+<!--start.wxml-->
+<view class="container">
+    <image class="title" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/logo2.png"></image>
+    <view class="content">
+      <view class="hd" style="transform:rotateZ({{angle}}deg);">
+
+        <image class="logo" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/logo.png"></image>
+        <image class="wave" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/more/wave.png" mode="aspectFill"></image>
+        <image class="wave wave-bg" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/more/wave.png" mode="aspectFill"></image>
+      </view>
+      <view class="bd">
+        <image class="words" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/words.png"></image>
+
+        <view class="confirm-btn" bindtap='go'>
+          <text>进入店铺</text>
+        </view>
+
+        <text class="copyright">@塬仓</text>
+      </view>
+    </view>
+</view>

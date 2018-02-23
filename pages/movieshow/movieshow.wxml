@@ -1,0 +1,3 @@
+<view class='video'>
+  <video  objectFit='fill' style="width: 100%" src='{{url}}' controls='true'></video>
+</view>

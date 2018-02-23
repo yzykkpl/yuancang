@@ -1,0 +1,10 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/craftbeer.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1'>进口啤酒</button>
+    <button class='button' bindtap='click' id='2'>IPA</button>
+
+     <text class='copyright'>@塬仓</text>
+     
+</view>
+
+

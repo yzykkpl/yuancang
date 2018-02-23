@@ -1,0 +1,9 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/bookshop.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1'>以书换书</button>
+    <button class='button' bindtap='click' id='2'>独立杂志</button>
+    <button class='button' bindtap='click' id='3'>独立专辑</button>
+
+     <text class='copyright'>@塬仓</text>
+     
+</view>

@@ -1,0 +1,24 @@
+.background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 220rpx; 
+  height: 220rpx;
+  margin: 30rpx 0rpx 100rpx 0rpx;
+}
+.button{
+   background-color: white;
+   border: 2rpx solid;
+   width: 500rpx;
+   margin: 30rpx 0rpx 30rpx 0rpx; 
+   text-align: justify-all;
+}
+.copyright{
+  font-size: 28rpx;
+  color: #999;
+  position:fixed;
+  bottom:10rpx;
+}

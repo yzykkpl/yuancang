@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/movies/movies",
+    "pages/productions/productions",
+    "pages/photograph/photograph",
+    "pages/movieshow/movieshow",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/photoshow/photoshow",
+    "pages/design/design",
+    "pages/bookshop/bookshop",
+    "pages/coffee/coffee",
+    "pages/coffeeshow/coffeeshow",
+    "pages/bookshow/bookshow",
+    "pages/designshow/designshow",
+    "pages/beer/beer",
+    "pages/beershow/beershow"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "塬仓",
+    
+    "navigationBarTextStyle": "black"
+  }
+}

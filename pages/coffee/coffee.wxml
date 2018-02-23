@@ -1,0 +1,8 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/coffee.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1'>现磨咖啡</button>
+    <button class='button' bindtap='click' id='2'>各类饮品</button>
+    <button class='button' bindtap='click' id='3'>塬仓特调</button>
+     <text class='copyright'>@塬仓</text>
+     
+</view>

@@ -1,0 +1,11 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/photograph.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1'>婚礼纪实</button>
+    <button class='button' bindtap='click' id='2'>婚纱旅拍</button>
+    <button class='button' style='letter-spacing:60rpx;text-indent: 60rpx;' bindtap='click' id='3'>写真</button>
+    <button class='button' bindtap='click' id='4'>最美证件照</button>
+     <text class='copyright'>@塬仓</text>
+     
+</view>
+
+

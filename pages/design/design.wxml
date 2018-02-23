@@ -1,0 +1,9 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/design.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1'>室内设计</button>
+    <button class='button' bindtap='click' id='2'>室内外墙绘壁画</button>
+    <button class='button' bindtap='click' id='3'>LOGO设计</button>
+    <button class='button' bindtap='click' id='4'>超级庫</button>
+     <text class='copyright'>@塬仓</text>
+     
+</view>

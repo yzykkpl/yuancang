@@ -1,0 +1,12 @@
+<view class='background'>
+    <image src='https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/movies.png' class='logo'></image>
+    <button class='button' bindtap='click' id='1' data-vid='j0552hggbip'>婚礼短视频</button>
+    <button class='button' bindtap='click' id='2' data-vid='d0542gxstvr'>宣传短片</button>
+    <button class='button' bindtap='click' id='3' data-vid='j05298jdxbm'>MV</button>
+    <button class='button' bindtap='click' id='4' data-vid='z0527qimghj'>微电影</button>
+    
+     <text class='copyright'>@塬仓</text>
+     
+</view>
+
+
