@@ -27,14 +27,10 @@ Page({
         break;
       case '2':
         that.setData({
-          url: ' https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/coffees/freshcoffee.jpg'
+          url: ' https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/coffee/drink.jpg'
         })
         break;
-      case '3':
-        that.setData({
-          url: ' https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/coffee/freshcoffee.jpg'
-        })
-        break;
+     
     }
 
   },

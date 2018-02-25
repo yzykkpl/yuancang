@@ -22,7 +22,7 @@ Page({
     switch(id){
       case '1':
         that.setData({
-          url:'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/photograph/wedding.jpg'
+          url:'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/photograph/wedding2.jpg'
     })
       break;
       case '2':
@@ -37,7 +37,7 @@ Page({
         break;
       case '4':
         that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/photograph/identification.jpg'
+          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/photograph/identification2.jpg'
         })
         break;
     }

@@ -2,6 +2,7 @@
   "pages": [
     "pages/start/start",
     "pages/movies/movies",
+  
     "pages/productions/productions",
     "pages/photograph/photograph",
     "pages/movieshow/movieshow",

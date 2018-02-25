@@ -9,7 +9,7 @@
         <image class="wave wave-bg" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/more/wave.png" mode="aspectFill"></image>
       </view>
       <view class="bd">
-        <image class="words" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/words.png"></image>
+        <!-- <image class="words" src="https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/words.png"></image> -->
 
         <view class="confirm-btn" bindtap='go'>
           <text>进入店铺</text>

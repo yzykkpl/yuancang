@@ -6,7 +6,8 @@ Page({
    */
   data: {
     url: null,
-    img:'aaa'
+    img:'',
+    isHidden: false
 
   },
 
@@ -19,19 +20,22 @@ Page({
     })
     var that = this;
     var id = options.id;
+    if(id=='4'){
+      that.setData({
+        isHidden:true,
+        img: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/movie/movie.jpg'
+      })
+    }
     var vid = options.vid;
     wx.request({
-      url: 'https://awmhgens.qcloud.la/weapp/getvid',
-        data:{
-          vid:vid
-        },
-        method:'POST',
+      url: 'https://vv.video.qq.com/getinfo?vids=' + vid + '&platform=101001&charge=0&otype=json',
+     method:'GET',
         header: {
           'content-type': 'application/json' // 默认值
         },
         success: function (res) {
-          
-          var api = res.data.parsedBody
+   
+          var api = res.data
           var index1=api.indexOf('=');
           var index2=api.lastIndexOf(';');
          var str=api.substring(index1+1,index2)
