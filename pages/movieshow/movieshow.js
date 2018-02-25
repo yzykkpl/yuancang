@@ -46,7 +46,7 @@ Page({
          that.setData({
            url: url + fn + '?vkey=' + fvkey 
          })
-         console.log(that.data.url)
+     
          wx.hideLoading()
         }
     })

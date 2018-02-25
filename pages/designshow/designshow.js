@@ -32,7 +32,7 @@ Page({
         break;
       case '3':
         that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/fresco.jpg'
+          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/logo.jpg'
         })
         break;
       case '4':
