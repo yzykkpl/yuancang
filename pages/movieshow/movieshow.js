@@ -53,10 +53,13 @@ Page({
         })
         break;
       case '4':
+        that.setData({
+          isHidden: true
+    
+        })
         this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/movie/movie.jpg', (err, data) => {
           console.log('图片加载完成', err, data.src, data.width, data.height)
           that.setData({
-            isHidden: true,
             img: data.src
           })
          
@@ -109,7 +112,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+    
   },
 
   /**

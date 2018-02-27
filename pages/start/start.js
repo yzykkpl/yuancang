@@ -62,8 +62,8 @@ Page({
     })
 
   },
-  imageOnLoad(err, data) {
-    console.log('图片加载完成', err, data.src)
+  imageOnLoad(err, data){
+
   },
   onShow: function () {
 
