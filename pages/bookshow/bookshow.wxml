@@ -2,3 +2,5 @@
    <image src='{{url}}' mode='widthFix'  style='width: 95%;' bindtap='previewImage'></image> 
   <text class='copyright'>联系电话:13988675253</text>
 </view>
+<import src="../../utils/img-loader/img-loader.wxml"/>
+<template is="img-loader" data="{{ imgLoadList }}"></template>

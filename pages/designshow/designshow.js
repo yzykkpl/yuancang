@@ -1,4 +1,4 @@
-
+const ImgLoader = require('../../utils/img-loader/img-loader.js')
 Page({
 
   /**
@@ -17,27 +17,44 @@ Page({
       title: 'loading',
       mask: true
     })
+    this.imgLoader = new ImgLoader(this)
     var id = options.id;
     var that = this;
     switch (id) {
       case '1':
-        that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/interior.jpg'
+        this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/interior.jpg', (err, data) => {
+          console.log('图片加载完成', err, data.src, data.width, data.height)
+          that.setData({
+            url: data.src
+          })
+          wx.hideLoading()
         })
         break;
       case '2':
-        that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/fresco.jpg'
+        this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/fresco.jpg', (err, data) => {
+          console.log('图片加载完成', err, data.src, data.width, data.height)
+          that.setData({
+            url: data.src
+          })
+          wx.hideLoading()
         })
         break;
       case '3':
-        that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/logo.jpg'
+        this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/logo.jpg', (err, data) => {
+          console.log('图片加载完成', err, data.src, data.width, data.height)
+          that.setData({
+            url: data.src
+          })
+          wx.hideLoading()
         })
         break;
       case '4':
-        that.setData({
-          url: 'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/storage.jpg'
+        this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/design/storage.jpg', (err, data) => {
+          console.log('图片加载完成', err, data.src, data.width, data.height)
+          that.setData({
+            url: data.src
+          })
+          wx.hideLoading()
         })
         break;
     }
@@ -55,7 +72,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    wx.hideLoading()
   },
 
   /**

@@ -2,7 +2,6 @@
   "pages": [
     "pages/start/start",
     "pages/movies/movies",
-  
     "pages/productions/productions",
     "pages/photograph/photograph",
     "pages/movieshow/movieshow",
@@ -17,12 +16,12 @@
     "pages/designshow/designshow",
     "pages/beer/beer",
     "pages/beershow/beershow"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "塬仓",
-    
     "navigationBarTextStyle": "black"
   }
 }

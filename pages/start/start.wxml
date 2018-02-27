@@ -14,8 +14,13 @@
         <view class="confirm-btn" bindtap='go'>
           <text>进入店铺</text>
         </view>
+        <view class='location'>
+        <image bindtap='map' src='../../images/location.png' style='width:100rpx;height:100rpx'></image>
+        </view>
 
         <text class="copyright">@塬仓</text>
       </view>
     </view>
 </view>
+<import src="../../utils/img-loader/img-loader.wxml"/>
+<template is="img-loader" data="{{ imgLoadList }}"></template>

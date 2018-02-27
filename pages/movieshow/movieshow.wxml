@@ -2,3 +2,6 @@
   <video id='myVideo' hidden='{{isHidden}}' objectFit='fill' style="width: 100%" src='{{url}}' controls='true'></video>
   <image src='{{img}}'  mode='widthFix' style='width:100%'></image>
 </view>
+
+<import src="../../utils/img-loader/img-loader.wxml"/>
+<template is="img-loader" data="{{ imgLoadList }}"></template>

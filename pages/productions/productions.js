@@ -1,5 +1,6 @@
 var app=getApp()
 var that = this
+
 Page({
   
   /**
@@ -99,6 +100,7 @@ Page({
     wx.navigateTo({
       url: '../bookshop/bookshop',
     })
-  }
+  },
+  
  
 })
