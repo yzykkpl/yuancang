@@ -23,7 +23,6 @@ Page({
     switch(id){
       case '1':
         this.imgLoader.load('https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/photograph/wedding2.jpg', (err, data) => {
-          console.log('图片加载完成', err, data.src, data.width, data.height)
           that.setData({
             url: data.src
           })

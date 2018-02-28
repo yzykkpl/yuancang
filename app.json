@@ -6,7 +6,6 @@
     "pages/photograph/photograph",
     "pages/movieshow/movieshow",
     "pages/index/index",
-    "pages/logs/logs",
     "pages/photoshow/photoshow",
     "pages/design/design",
     "pages/bookshop/bookshop",
@@ -16,7 +15,7 @@
     "pages/designshow/designshow",
     "pages/beer/beer",
     "pages/beershow/beershow"
-
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
