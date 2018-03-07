@@ -12,7 +12,7 @@ function genImgListData() {
     'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/icons/design.png',
     'https://yuancang-1256086874.cos.ap-chengdu.myqcloud.com/yc/images/background22.png'
   ]
-  images = images.concat(images.slice(0, 4))
+ 
   return images.map(item => {
     return {
       url: item,
@@ -33,6 +33,7 @@ Page({
     this.data.imgList.forEach(item => {
       this.imgLoader.load(item.url)
     })
+    console.log(this.imgList)
   },
   imageOnLoad(err, data){
 
