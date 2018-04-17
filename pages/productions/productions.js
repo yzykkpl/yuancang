@@ -101,6 +101,67 @@ Page({
       url: '../bookshop/bookshop',
     })
   },
+
+_login:function(){
+  console.log(wx.getStorageSync('token'))
+  if (wx.getStorageSync('token')) {
+    console.log("ge2")
+    wx.request({
+      url: 'https://www.yzykkpl.cn/sell/wechat/login?token=' + wx.getStorageSync('token'),
+      data: '',
+      header: {},
+      method: 'GET',
+      dataType: 'json',
+      responseType: 'text',
+      success: function (res) {
+        console.log(res)
+      },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  } else {
+    wx.login({
+      success: function (res) {
+        wx.request({
+          url: 'https://www.yzykkpl.cn/sell/wechat/auth?code=' + res.code,
+          data: '',
+          header: {},
+          method: 'GET',
+          dataType: 'json',
+          responseType: 'text',
+          success: function (res) {
+            if(res.data.code==0){
+              wx.setStorageSync("token", res.data.data.token)
+            }
+            else{
+              console.log("error")
+            }
+          },
+          fail: function (res) { },
+          complete: function (res) { },
+        })
+      }
+    })
+  }
+
+
+
+},
+_pay:function(){
+  wx.requestPayment({
+    timeStamp: '1522942192',
+    nonceStr: 'wMkQSggMwivdbjYr',
+    package: 'prepay_id=wx05232950334466ac735db0c92347420036',
+    signType: 'MD5',
+    paySign: '4088E12B996FE3B76173DB5B461B105D',
+    'success': function (res) {
+      console.log(res)
+    },
+    'fail': function (res) {
+      console.log(res)
+    }
+  })
+}
   
  
 })

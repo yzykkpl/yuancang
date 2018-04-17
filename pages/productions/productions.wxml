@@ -1,6 +1,6 @@
 <view class='background' >
 	<view class='logo'>
-		<image src="{{logoImg}}" style=" width: 180rpx; height: 180rpx"></image>
+		<image src="{{logoImg}}" style=" width: 180rpx; height: 180rpx" bindtap='_login'></image>
 	</view>
   <view class='productions'>
 		<image src="{{photoImg}}" style=" width: 200rpx; height: 200rpx" bindtap='photograph' id='1'></image>
@@ -14,4 +14,7 @@
 		<image src="{{designImg}}" style=" width: 200rpx; height: 200rpx" bindtap='design' id='5'></image>
     <image src="{{bookImg}}" style=" width: 200rpx; height: 200rpx" bindtap='bookshop' id='6'></image>
 	</view>
+  <view>
+  <button bindtap='_pay'>pay</button>
+  </view>
 </view>
